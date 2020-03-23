@@ -1,0 +1,23 @@
+$colors: red, orange, yellow, green, blue, indigo, violet;
+
+.rainbow {
+    width: 100vw;
+
+    &__box {
+        background-color: white;
+        border: solid 2px gray;
+        border-radius: 10px;
+        box-sizing: border-box;
+        float: left;
+        height: calc(100vh - 10px)
+        margin-top: 5px;
+        width: 14.285%;
+
+    }
+
+@each $color in $colors{
+    &__box--#{$color} {
+        background-color: $color;
+    }
+}
+}

@@ -1,0 +1,22 @@
+#flag {
+    width: 400px;
+    height: 600px;
+  /*   border: 2px;
+    border-color: black; */
+  }
+  
+  .row {
+      width: 600px;
+      height: 20px;
+  
+  }
+  .red {
+      background-color: red;
+  }
+  
+   img {
+  /*       float: left; */
+        position: absolute;
+        width: 150px;
+        height: 80px;
+    }

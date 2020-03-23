@@ -1,0 +1,19 @@
+#checker-board {
+    width: 400px;
+    height: 400px;
+    border: 10px solid;
+    border-radius: 10px;
+    position: relative;
+    border-color: black;
+  }
+  .square {
+    width: 50px;
+    height: 50px;
+    float: left;
+  }
+  .black {
+    background-color: black;
+  }
+  .light {
+    background-color: white;
+  }
