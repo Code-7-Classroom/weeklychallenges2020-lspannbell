@@ -1,0 +1,67 @@
+// @import url("https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap")
+
+body {
+    margin: 0;
+    background-color: black;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto';
+    margin-top: 0;
+    margin-bottom: 2em;
+}
+
+h3 {
+    color: blue;
+}
+
+p{
+    font-family: 'Roboto';
+    color: purple;
+    margin-top: 0;
+
+}
+
+.outer {
+    padding: 1em;
+}
+
+section {
+    column-count: 3;
+    column-gap: 2em;
+}
+
+img{
+    width: 80%;
+    margin: 1em 0 0;
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        text-align: left;
+        font-size: 18px;
+        // background-color: teal;
+    }
+    p{
+        line-height: 1.6em;
+    }
+    section {
+        column-count: 3;
+        column-rule-style: solid;
+        column-rule-color: black;
+    }
+    h1 {
+        font-size: 3rem;
+        margin: 2em 0 1em;
+    }
+    .outer {
+        padding: 4em;
+    }
+    article {
+        padding: 2em;
+        background: tan;
+    }
+
+
+}
