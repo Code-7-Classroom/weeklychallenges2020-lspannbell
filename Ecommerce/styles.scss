@@ -1,0 +1,17 @@
+$main: grey
+$secondary: black
+$highlight: red
+
+*
+box-sizing: border-box
+
+html, body
+    margin: 0
+    padding: 0
+    font-family: helvetica, sans-serif
+
+.banner
+    background: $main url(/Users/r2h/Desktop/Ecommerce/images/ProductTable1.jpg)
+    background-repeat: repeat
+    h1
+    color: $main
