@@ -1,0 +1,43 @@
+"employees": [
+    {
+        "name": "Lenise",
+        "id": 1,
+        "salary": 10000000,
+        "department": "Marketing"
+    },
+    {
+        "name": "Vanessa",
+        "id": 2,
+        "salary": 15000000,
+        "department": "Finance"
+    },
+    {
+        "name": "Kelly",
+        "id": 3,
+        "salary": 200000000,
+        "department": "Education"
+    },
+    {
+        "name": "Reggie",
+        "id": 1,
+        "salary": 10000000,
+        "department": "Finance"
+    },
+    {
+        "name": "Lucy",
+        "id": 2,
+        "salary": 15000000,
+        "department": "Human Resources"
+    },
+    {
+        "name": "Tori",
+        "id": 3,
+        "salary": 200000000,
+        "department": "Management"
+    },
+    {
+        "name": "Maya",
+        "id": 3,
+        "salary": 200000000,
+        "department": "Management"
+    }

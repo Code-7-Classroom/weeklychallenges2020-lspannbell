@@ -1,49 +1,17 @@
 {
-    "employees": [
-        {
-            "name": "Lenise",
-            "id": 1,
-            "salary": 10000000,
-            "department": "Marketing"
-        },
-        {
-            "name": "Vanessa",
-            "id": 2,
-            "salary": 15000000,
-            "department": "Finance"
-        },
-        {
-            "name": "Kelly",
-            "id": 3,
-            "salary": 200000000,
-            "department": "Education"
-        },
-        {
-            "name": "Reggie",
-            "id": 1,
-            "salary": 10000000,
-            "department": "Finance"
-        },
-        {
-            "name": "Lucy",
-            "id": 2,
-            "salary": 15000000,
-            "department": "Human Resources"
-        },
-        {
-            "name": "Tori",
-            "id": 3,
-            "salary": 200000000,
-            "department": "Management"
-        },
-        {
-            "name": "Maya",
-            "id": 3,
-            "salary": 200000000,
-            "department": "Management"
-        }
-    ],
-    "dependencies": {
-        "express": "^4.17.1"
-    }
+  "name": "Hard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
 }
